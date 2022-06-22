@@ -1,36 +1,33 @@
 import react from "react";
-
+import Background from "../images/bg-intro-desktop.svg";
+import Mockup from "../images/image-mockups.png";
 function Body() {
   return (
-    <div className="bg-Light-Grayish-Blue">
-      <div>
-        Next generation digital banking Take your financial life online. Your
-        Easybank account will be a one-stop-shop for spending, saving,
-        budgeting, investing, and much more. Request Invite
+    <div className="bg-Light-Grayish-Blue flex justify-center h-screen overflow-hidden">
+      <div className="flex flex-justify-center items-center flex-wrap flex-1 flex-col pt-60 pl-44">
+        <h1 className="text-7xl text-Dark-Blue  font-Public-Sans h-24 self-end w-[650px] leading-tight">
+          Next generation digital banking
+        </h1>
+        <p className="text-Grayish-Blue font-Public-Sans mt-32 w-[525px] text-xl self-start leading-normal">
+          Take your financial life online. Your Easybank account will be a
+          one-stop-shop for spending, saving, budgeting, investing, and much
+          more.
+        </p>
+        <btn className="rounded-3xl bg-gradient-to-r from-Gradient-1 to-Gradient-2 text-white md w-64 h-14 pt-2.5 text-xl text-center mt-12 self-start ">
+          Request Invite
+        </btn>
       </div>
-      <div className="hidden">
-      Why choose Easybank? We leverage Open Banking to turn your bank account
-      into your financial hub. Control your finances like never before. Online
-      Banking Our modern web and mobile applications allow you to keep track of
-      your finances wherever you are in the world. Simple Budgeting See exactly
-      where your money goes each month. Receive notifications when you’re close
-      to hitting your limits. Fast Onboarding We don’t do branches. Open your
-      account in minutes online and start taking control of your finances right
-      away. Open API Manage your savings, investments, pension, and much more
-      from one account. Tracking your money has never been easier. Latest
-      Articles By Claire Robinson Receive money in any currency with no fees The
-      world is getting smaller and we’re becoming more mobile. So why should you
-      be forced to only receive money in a single … By Wilson Hutton Treat
-      yourself without worrying about money Our simple budgeting feature allows
-      you to separate out your spending and set realistic limits each month.
-      That means you … By Wilson Hutton Take your Easybank card wherever you go
-      We want you to enjoy your travels. This is why we don’t charge any fees on
-      purchases while you’re abroad. We’ll even show you … By Claire Robinson
-      Our invite-only Beta accounts are now live! After a lot of hard work by
-      the whole team, we’re excited to launch our closed beta. It’s easy to
-      request an invite through the site ...
+      <div className="flex justify-center flex-auto">
+        <img
+          src={Background}
+          alt="background splash"
+          className="h-auto w-[5000px] scale-125 -skew-x-6 relative bottom-48 left-[550px]"
+        ></img>
+        <img
+          src={Mockup}
+          className="h-auto relative right-[330px] bottom-12 scale-125"
+        ></img>
       </div>
-      
     </div>
   );
 }
