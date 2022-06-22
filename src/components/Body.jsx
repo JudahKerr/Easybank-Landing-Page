@@ -17,7 +17,7 @@ function Body() {
           Request Invite
         </btn>
       </div>
-      <div className="flex justify-center flex-auto">
+      <div className="flex justify-center flex-auto overflow-visible">
         <img
           src={Background}
           alt="background splash"
@@ -25,7 +25,7 @@ function Body() {
         ></img>
         <img
           src={Mockup}
-          className="h-auto relative right-[330px] bottom-12 scale-125"
+          className="h-auto relative right-[330px] bottom-8 z-30"
         ></img>
       </div>
     </div>
