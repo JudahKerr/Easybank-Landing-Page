@@ -11,7 +11,7 @@ function Navbar() {
           <li>Contact</li>
           <li>Blog</li>
           <li>Careers</li>
-          <btn className="rounded-3xl flex bg-gradient-to-r from-Gradient-1 to-Gradient-2 relative left-96 text-white md w-64 items-center justify-center h-14 text-center">
+          <btn className="rounded-3xl flex bg-gradient-to-r from-Gradient-1 to-Gradient-2 relative left-96 text-white md w-64 items-center justify-center h-14 font-Public-Sans text-center">
             Request Invite
           </btn>
         </ul>

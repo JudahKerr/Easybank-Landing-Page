@@ -13,9 +13,9 @@ function Body() {
           one-stop-shop for spending, saving, budgeting, investing, and much
           more.
         </p>
-        <btn className="rounded-3xl bg-gradient-to-r from-Gradient-1 to-Gradient-2 text-white md w-64 h-14 pt-2.5 text-xl text-center mt-12 self-start ">
-          Request Invite
-        </btn>
+        <btn className="rounded-3xl flex bg-gradient-to-r from-Gradient-1 to-Gradient-2 self-start text-white md text-2xl w-64 items-center justify-center h-14 mt-12 font-Public-Sans text-center">
+            Request Invite
+          </btn>
       </div>
       <div className="flex justify-center flex-auto overflow-visible">
         <img
