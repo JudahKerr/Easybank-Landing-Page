@@ -6,3 +6,13 @@
 div {
     border: black 1px solid;
 } */
+
+.hoverText {
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #86e5a6, #80d3e0) 1;
+}
+
+.colorize-navy {
+    filter: brightness(0.2) sepia(1) hue-rotate(180deg) saturate(5);
+  }

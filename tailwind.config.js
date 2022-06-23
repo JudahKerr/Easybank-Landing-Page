@@ -11,7 +11,9 @@ module.exports = {
         "Light-Grayish-Blue": "hsl(220, 16%, 96%)",
         "Light-Gray": "hsl(0, 0%, 98%)",
         "Gradient-1": "#86e5a6",
-        "Gradient-2": "#80d3e0"
+        "Gradient-2": "#80d3e0",
+        "Gradient-3": "#a8e6bc",
+        "Gradient-4": "#aadce4",
       },
       fontFamily: {
         'Public-Sans': ["Public Sans", "sans-serif"]

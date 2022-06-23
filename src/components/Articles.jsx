@@ -12,7 +12,7 @@ function Articles() {
           <img src={Currency} className="w-full h-[260px] rounded-lg"></img>
           <div className="bg-white bord"></div>
           <p className="text-Grayish-Blue font-Public-Sans  text-md self-start leading-normal mt-8 ml-8">By Claire Robinson</p>
-          <h3 className="text-2xl text-Dark-Blue  font-Public-Sans leading-tight ml-8 mt-4 w-3/4">Receive money in any currency with no fees</h3>
+          <h3 className="text-2xl text-Dark-Blue cursor-pointer font-Public-Sans leading-tight ml-8 mt-4 w-3/4">Receive money in any currency with no fees</h3>
           <p className="text-Grayish-Blue font-Public-Sans  text-lg self-start leading-normal mt-8 ml-8 mr-8">The world is
       getting smaller and we’re becoming more mobile. So why should you be
       forced to only receive money in a single …</p>
@@ -20,7 +20,7 @@ function Articles() {
         <div className="grid grid-cols-1 auto-rows-3 bg-white rounded-lg pb-12">
           <img src={Restaurant} className=" h-auto  rounded-lg"></img>
           <p className="text-Grayish-Blue font-Public-Sans  text-md self-start leading-normal mt-8 ml-8">By Wilson Hutton</p>
-          <h3 className="text-2xl text-Dark-Blue  font-Public-Sans leading-tight ml-8 mt-4 w-3/4">Treat yourself
+          <h3 className="text-2xl text-Dark-Blue cursor-pointer font-Public-Sans leading-tight ml-8 mt-4 w-3/4">Treat yourself
       without worrying about money</h3>
           <p className="text-Grayish-Blue font-Public-Sans  text-lg self-start leading-normal mt-8 ml-8 mr-8">Our simple budgeting feature allows you to
       separate out your spending and set realistic limits each month. That means
@@ -29,7 +29,7 @@ function Articles() {
         <div className="grid grid-cols-1 auto-rows-3 bg-white rounded-lg pb-12">
           <img src={Plane} className="w-94 h-auto rounded-lg"></img>
           <p className="text-Grayish-Blue font-Public-Sans  text-md self-start leading-normal mt-8 ml-8">By Wilson Hutton</p>
-          <h3 className="text-2xl text-Dark-Blue  font-Public-Sans leading-tight ml-8 mt-4 w-3/4">Take your Easybank card wherever you go</h3>
+          <h3 className="text-2xl text-Dark-Blue cursor-pointer font-Public-Sans leading-tight ml-8 mt-4 w-3/4">Take your Easybank card wherever you go</h3>
           <p className="text-Grayish-Blue font-Public-Sans  text-lg self-start leading-normal mt-8 ml-8 mr-8">We want you
       to enjoy your travels. This is why we don’t charge any fees on purchases
       while you’re abroad. We’ll even show you …</p>
@@ -37,7 +37,7 @@ function Articles() {
         <div className="grid grid-cols-1 auto-rows-3 bg-white rounded-lg pb-12">
           <img src={Confetti} className="w-94 h-auto rounded-lg"></img>
           <p className="text-Grayish-Blue font-Public-Sans  text-md self-start leading-normal mt-8 ml-8">By Claire Robinson</p>
-          <h3 className="text-2xl text-Dark-Blue  font-Public-Sans leading-tight ml-8 mt-4 w-3/4">Our
+          <h3 className="text-2xl text-Dark-Blue cursor-pointer font-Public-Sans leading-tight ml-8 mt-4 w-3/4">Our
       invite-only Beta accounts are now live!</h3>
           <p className="text-Grayish-Blue font-Public-Sans  text-lg self-start leading-normal mt-8 ml-8 mr-8">After a lot of hard work by the
       whole team, we’re excited to launch our closed beta. It’s easy to request

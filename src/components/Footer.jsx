@@ -16,23 +16,23 @@ function Footer() {
               easybank
             </h2>
             <div className="grid grid-cols-5 gap-3">
-              <img src={Facebook} className="h-8 w-8 "></img>
-              <img src={Youtube} className="h-8 w-8 "></img>
-              <img src={Twitter} className="h-8 w-8 "></img>
-              <img src={Pintrest} className="h-8 w-8 "></img>
-              <img src={Instagram} className="h-8 w-8 "></img>
+              <img src={Facebook} className="h-8 w-8 cursor-pointer filter hover:brightness-[25%] hover:hue-rotate-[30deg] hover:saturate-[200]"></img>
+              <img src={Youtube} className="h-8 w-8 cursor-pointer filter hover:brightness-[25%] hover:hue-rotate-[30deg] hover:saturate-[200]"></img>
+              <img src={Twitter} className="h-8 w-8 cursor-pointer filter hover:brightness-[25%] hover:hue-rotate-[30deg] hover:saturate-[200]"></img>
+              <img src={Pintrest} className="h-8 w-8 cursor-pointer filter hover:brightness-[25%] hover:hue-rotate-[30deg] hover:saturate-[200]"></img>
+              <img src={Instagram} className="h-8 w-8 cursor-pointer filter hover:brightness-[25%] hover:hue-rotate-[30deg] hover:saturate-[200]"></img>
             </div>
           </div>
           <div className="grid grid-cols-2 grid-rows-3">
-            <h3 className="text-white font-Public-Sans">About Us</h3>
-            <h3 className="text-white font-Public-Sans">Contact</h3>
-            <h3 className="text-white font-Public-Sans">Blog</h3>
-            <h3 className="text-white font-Public-Sans">Careers</h3>
-            <h3 className="text-white font-Public-Sans">Support</h3>
-            <h3 className="text-white font-Public-Sans">Privacy Policy</h3>
+            <h3 className="text-white font-Public-Sans cursor-pointer hover:text-emerald-600">About Us</h3>
+            <h3 className="text-white font-Public-Sans cursor-pointer hover:text-emerald-600">Contact</h3>
+            <h3 className="text-white font-Public-Sans cursor-pointer hover:text-emerald-600">Blog</h3>
+            <h3 className="text-white font-Public-Sans cursor-pointer hover:text-emerald-600">Careers</h3>
+            <h3 className="text-white font-Public-Sans cursor-pointer hover:text-emerald-600">Support</h3>
+            <h3 className="text-white font-Public-Sans cursor-pointer hover:text-emerald-600">Privacy Policy</h3>
           </div>
           <div className="grid grid-cols-1 grid-rows-2 justify-items-end items-end">
-            <btn className="rounded-3xl flex bg-gradient-to-r from-Gradient-1 to-Gradient-2 text-white md w-48 items-center justify-center h-14 text-center">
+            <btn className="rounded-3xl flex bg-gradient-to-r from-Gradient-1 to-Gradient-2 text-white cursor-pointer md w-48 items-center justify-center h-14 text-center transform transition hover:from-Gradient-3 hover:to-Gradient-4">
               Request Invite
             </btn>
             <p className="text-gray-500 font-Public-Sans">© Easybank. All Rights Reserved</p>

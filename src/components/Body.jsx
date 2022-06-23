@@ -13,7 +13,7 @@ function Body() {
           one-stop-shop for spending, saving, budgeting, investing, and much
           more.
         </p>
-        <btn className="rounded-3xl flex bg-gradient-to-r from-Gradient-1 to-Gradient-2 self-start text-white md text-2xl w-64 items-center justify-center h-14 mt-12 font-Public-Sans text-center">
+        <btn className="rounded-3xl flex cursor-pointer bg-gradient-to-r from-Gradient-1 to-Gradient-2 self-start text-white md text-2xl w-64 items-center justify-center h-14 mt-12 font-Public-Sans text-center transform transition hover:from-Gradient-3 hover:to-Gradient-4">
             Request Invite
           </btn>
       </div>
