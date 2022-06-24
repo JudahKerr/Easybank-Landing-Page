@@ -1,38 +1,34 @@
-import react, { useState, useRef } from "react";
+import react, { useState } from "react";
 import Logo from "../images/logo.svg";
 import Hamburger from "../images/icon-hamburger.svg";
 
 function Navbar() {
 
   const [isActive, setActive] = useState(false);
-  const mobileMenu = useRef(null);
 
   function handleClick() {
     setActive(!isActive);
-    mobileMenu.current.classList.toggle("opacity-100")
   }
 
 
   return (
-    <div className="flex bg-white items-center md:justify-between text-2xl font-Public-Sans md:mx-44 mx-20 h-24 z-20">
+    <div className="flex bg-white md:items-center justify-center items-center text-2xl  font-Public-Sans max-w-[1650px] md:max-w-auto ml-auto md:ml-44 md:mr-44 h-24 z-20">
       <img
         src={Logo}
-        className="md:w-48 w-72 h-auto mr-2 cursor-pointer"
+        className="md:w-48 w-72 h-auto mr-2 mx-auto md:mx-0 cursor-pointer"
       ></img>
       <img src={Hamburger} onClick={handleClick} className="md:hidden flex h-auto w-16 ml-auto cursor-pointer"></img>
-
-     {/* Mobile Menu */}
-        <div class={isActive ? "bg-white p-12 md:absolute md:top-[1000px]" : "absolute top-[1000px]"}>
-          <ul ref={mobileMenu} className="absolute left-24 top-24 bg-white px-12 z-40 py-4 w-[500px] flex flex-col items-center justify-center opacity-0 transition-all ease-in duration-150">
-            <li className="py-8 cursor-pointer hover:text-Dark-Blue text-gray-500">Home</li>
-            <li className="py-8 cursor-pointer hover:text-Dark-Blue text-gray-500">About</li>
-            <li className="py-8 cursor-pointer hover:text-Dark-Blue text-gray-500">Contact</li>
-            <li className="py-8 cursor-pointer hover:text-Dark-Blue text-gray-500">Blog</li>
-            <li className="py-8 cursor-pointer hover:text-Dark-Blue text-gray-500">Careers</li>
+        <div class={isActive ? "block bg-white p-12 clear-both" : "hidden"}>
+          <ul class="">
+            <li class="active">Home</li>
+            <li class="active">About</li>
+            <li class="active">Contact</li>
+            <li class="active">Blog</li>
+            <li class="active">Careers</li>
           </ul>
         </div>
-      <nav className="md:flex hidden z-10 flex-grow-0 max-w-7xl mx-auto pl-8 pr-8">
-        <ul className="md:static md:flex space-x-4 text-xl items-baseline  text-Grayish-Blue">
+      <nav className="flex z-10 flex-grow-0 max-w-7xl mx-auto pl-8 pr-8">
+        <ul className="absolute left-[1000px] md:static md:flex space-x-4 text-xl items-baseline  text-Grayish-Blue">
           <div className="group">
             <li className="cursor-pointer hover:text-Dark-Blue group">Home</li>
             <div className="w-14 h-1 bg-gradient-to-r from-Gradient-1 to-Gradient-2 hidden group-hover:block relative top-6"></div>

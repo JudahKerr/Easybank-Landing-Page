@@ -6,10 +6,10 @@ import Confetti from "../images/image-confetti.jpg"
 function Articles() {
   return (
     <div className="bg-gray-100 -mt-[170px] pt-36 pb-36">
-      <h1 className="text-5xl text-Dark-Blue  font-Public-Sans h-24 pl-44 leading-tight mb-8">Latest Articles</h1>
-      <div className="grid grid-cols-4 pl-44 pr-44 gap-10">
+      <h1 className="text-5xl text-Dark-Blue  font-Public-Sans h-24 md:pl-44 text-center md:text-left leading-tight mb-8">Latest Articles</h1>
+      <div className="grid md:grid-cols-4 md:grid-rows-none grid-cols-1 grid-rows-4 md:pl-44 md:pr-44 gap-10 md:w-auto w-3/4 md:mx-0 mx-auto">
         <div className="grid grid-cols-1  bg-white rounded-lg pb-12">
-          <img src={Currency} className="w-full h-[260px] rounded-lg"></img>
+          <img src={Currency} className="w-full h-[260px] md:mx-0 mx-auto rounded-lg"></img>
           <div className="bg-white bord"></div>
           <p className="text-Grayish-Blue font-Public-Sans  text-md self-start leading-normal mt-8 ml-8">By Claire Robinson</p>
           <h3 className="text-2xl text-Dark-Blue cursor-pointer font-Public-Sans leading-tight ml-8 mt-4 w-3/4">Receive money in any currency with no fees</h3>
