@@ -5,7 +5,7 @@ import API from "../images/icon-api.svg";
 
 function Icons() {
   return (
-    <div className="bg-gray-200 z-10 relative bottom-[165px] pt-[100px] pb-36 ">
+    <div className="bg-gray-200 z-10 md:relative bottom-[165px] pt-[100px] pb-36 overflow-hidden">
       <div>
         <h1 className="text-5xl text-Dark-Blue  font-Public-Sans h-24 md:pl-44 mx-auto md:mx-0 leading-tight text-center md:text-left">
           Why choose Easybank?
@@ -17,42 +17,42 @@ function Icons() {
       </div>
 
       <div className="mt-20 md:pl-44 grid md:grid-cols-4 md:grid-rows-none grid-cols-1 mx-auto md:text-left text-center">
-        <div className="grid grid-cols-1 grid-rows-3 md:place-items-start place-items-center md:px-0 px-12 md:py-0 py-12">
-          <img src={Online} className=""></img>
-          <h2 className="text-2xl text-Dark-Blue  font-Public-Sans h-24 mt-4 -mb-24">
+        <div className="grid grid-cols-1 grid-rows-3 md:place-items-start place-items-center md:px-0 px-4 md:py-0 py-4">
+          <img src={Online} alt="online"className=""></img>
+          <h2 className="text-2xl text-Dark-Blue  font-Public-Sans h-24 mt-4 md:-mb-24 -mb-0">
             Online Banking
           </h2>
-          <p className="text-Grayish-Blue font-Public-Sans text-xl leading-normal md:pr-12 md:pt-0 pt-4">
+          <p className="text-Grayish-Blue font-Public-Sans text-xl leading-normal md:pr-12 md:pt-0 pt-0">
             Our modern web and mobile applications allow you to keep track of
             your finances wherever you are in the world.
           </p>
         </div>
         <div className="grid grid-cols-1 grid-rows-3 md:place-items-start place-items-center md:px-0 px-12 md:py-0 py-12">
-          <img src={Budgeting}></img>
+          <img src={Budgeting} alt="budgeting"></img>
           <h2 className="text-2xl text-Dark-Blue  font-Public-Sans h-24 mt-4 -mb-24">
             Simple Budgeting
           </h2>
-          <p className="text-Grayish-Blue font-Public-Sans text-xl leading-normal md:pr-12 md:pt-0 pt-4">
+          <p className="text-Grayish-Blue font-Public-Sans text-xl leading-normal md:pr-12 md:pt-0 pt-0">
             See exactly where your money goes each month. Receive notifications
             when you’re close to hitting your limits.
           </p>
         </div>
         <div className="grid grid-cols-1 grid-rows-3 md:place-items-start place-items-center md:px-0 px-12 md:py-0 py-12">
-          <img src={Onboarding}></img>
+          <img src={Onboarding} alt="onboarding"></img>
           <h2 className="text-2xl text-Dark-Blue  font-Public-Sans h-24 mt-4 -mb-24">
             Fast Onboarding
           </h2>
-          <p className="text-Grayish-Blue font-Public-Sans text-xl leading-normal md:pr-12 md:pt-0 pt-4">
+          <p className="text-Grayish-Blue font-Public-Sans text-xl leading-normal md:pr-12 md:pt-0 pt-0">
             We don’t do branches. Open your account in minutes online and start
             taking control of your finances right away.
           </p>
         </div>
         <div className="grid grid-cols-1 grid-rows-3 md:place-items-start place-items-center md:px-0 px-12 md:py-0 py-12">
-          <img src={API}></img>
+          <img src={API} alt="api"></img>
           <h2 className="text-2xl text-Dark-Blue  font-Public-Sans h-24 mt-4 -mb-24">
             Open API
           </h2>
-          <p className="text-Grayish-Blue font-Public-Sans text-xl leading-normal md:pr-12 md:pt-0 pt-4">
+          <p className="text-Grayish-Blue font-Public-Sans text-xl leading-normal md:pr-12 md:pt-0 pt-0">
             Manage your savings, investments, pension, and much more from one
             account. Tracking your money has never been easier.
           </p>
