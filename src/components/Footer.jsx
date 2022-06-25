@@ -6,15 +6,15 @@ import Pintrest from "../images/icon-pinterest.svg";
 import Instagram from "../images/icon-instagram.svg";
 function Footer() {
   return (
-    <div className="bg-Dark-Blue md:h-[200px] h-auto pt-10 overflow-hidden">
+    <div className="bg-Dark-Blue xl:h-[200px] h-auto pt-10 overflow-hidden">
       <footer>
-        <div className="grid md:grid-cols-3 grid-cols-1 md:pl-44 md:pr-44 gap-10">
-          <div className="grid grid-cols-1 grid-rows-2 items-stretch md:justify-items-start justify-items-center gap-10">
+        <div className="grid md:grid-cols-3 grid-cols-1 xl-px-44 px-12 gap-10">
+          <div className="grid grid-cols-1 xl:grid-rows-2 xl:items-stretch items-center md:justify-items-start justify-items-center gap-10">
             <img src={Logo} alt="logo" className="md:relative top-1.5 hidden md:visible"></img>
-            <h2 className="text-3xl font-Public-Sans text-white md:absolute font-bold leading-snug left-[235px]">
+            <h2 className="text-3xl font-Public-Sans text-white  font-bold leading-snug left-[235px]">
               easybank
             </h2>
-            <div className="grid grid-cols-5 md:gap-3 gap-6">
+            <div className="grid grid-cols-5 md:gap-3 gap-6 items-center">
               <img
                 src={Facebook}
                 alt="facebook"
