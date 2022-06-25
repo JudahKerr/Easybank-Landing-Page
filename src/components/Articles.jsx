@@ -7,7 +7,7 @@ function Articles() {
   return (
     <div className="bg-gray-100 -mt-[170px] pt-36 pb-36 overflow-hidden">
       <h1 className="text-5xl text-Dark-Blue  font-Public-Sans h-24 md:pl-44 text-center md:text-left leading-tight mb-8">Latest Articles</h1>
-      <div className="grid lg:grid-cols-4 md:grid-rows-none grid-cols-1 grid-rows-4 px-4 xl-px-44 gap-10 md:w-auto w-3/4 md:mx-0 mx-auto">
+      <div className="grid lg:grid-cols-4 md:grid-rows-none grid-cols-1 grid-rows-4 px-4 xl:px-44 gap-10 md:w-auto w-3/4 md:mx-0 mx-auto">
         <div className="grid grid-cols-1  bg-white rounded-lg pb-12">
           <img src={Currency} alt="currency"className="w-[100%] h-auto md:mx-0 mx-auto rounded-lg"></img>
           <div className="bg-white bord"></div>

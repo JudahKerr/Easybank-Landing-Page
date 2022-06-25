@@ -10,7 +10,7 @@ function Icons() {
         <h1 className="text-5xl text-Dark-Blue  font-Public-Sans h-24 xl:pl-44 mx-auto md:mx-0 leading-tight text-center xl:text-left">
           Why choose Easybank?
         </h1>
-        <p className="text-Grayish-Blue font-Public-Sans md:w-[950px] md:pl-44 text-xl self-start leading-normal md:mt-0 mt-24 text-center xl:text-left">
+        <p className="text-Grayish-Blue font-Public-Sans xl:w-[950px] w-[80%] mx-auto xl:mx-0 xl:pl-44 text-xl self-start leading-normal  md:mt-0 mt-24 text-center xl:text-left">
           We leverage Open Banking to turn your bank account into your financial
           hub. Control your finances like never before.
         </p>

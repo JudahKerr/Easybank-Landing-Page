@@ -8,7 +8,7 @@ function Footer() {
   return (
     <div className="bg-Dark-Blue xl:h-[200px] h-auto pt-10 overflow-hidden">
       <footer>
-        <div className="grid md:grid-cols-3 grid-cols-1 xl-px-44 px-12 gap-10">
+        <div className="grid md:grid-cols-3 grid-cols-1 xl:px-44 px-12 gap-10">
           <div className="grid grid-cols-1 xl:grid-rows-2 xl:items-stretch items-center md:justify-items-start justify-items-center gap-10">
             <img src={Logo} alt="logo" className="md:relative top-1.5 hidden md:visible"></img>
             <h2 className="text-3xl font-Public-Sans text-white  font-bold leading-snug left-[235px]">
